@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About me</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background: #f7f7f7;
+        color: #222;
+      }
+
+      .about-me {
+        background: #fff;
+        max-width: 900px;
+        margin: 20px;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+        text-align: left;
+      }
+      .about-me h2 {
+        margin-top: 0;
+        color: #00bcd4;
+      }
+      .work-section {
+        background: #fff;
+        max-width: 900px;
+        margin: 20px;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+      }
+      .work-section h2 {
+        color: #00bcd4;
+        margin-top: 0;
+        text-align: center;
+      }
+      .work-experience {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        padding: 20px 0;
+      }
+      .work-experience:last-child {
+        border-bottom: none;
+      }
+      .work-icon {
+        font-size: 32px;
+        color: #00bcd4;
+        margin-right: 10px;
+        margin-top: 5px;
+      }
+      .work-details {
+        display: flex;
+        justify-content: space-between;
+        flex-grow: 1;
+        flex-direction: row;
+      }
+      .work-details h3 {
+        margin: 0 0 5px 0;
+        font-size: 20px;
+      }
+      .work-details .job-type {
+        background: #00bcd4;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        padding: 2px 10px;
+        font-size: 12px;
+        margin-bottom: 10px;
+      }
+      .work-details .company {
+        font-weight: bold;
+        margin: 5px 0;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      .work-details .location {
+        color: #666;
+        font-size: 14px;
+        margin-bottom: 4px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      .work-details .date {
+        color: #888;
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+      @media (max-width: 600px) {
+        nav {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+        .work-section,
+        .about-me {
+          padding: 15px;
+        }
+        .work-experience {
+          flex-direction: column;
+          gap: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="logo 1.png" alt="Logo" />
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="techstack.html">Tech Stack</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="social-icons">
+          <a href="https://github.com/" target="_blank" aria-label="GitHub"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://twitter.com/" target="_blank" aria-label="Twitter"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </div>
+      </nav>
+    </header>
+    <div class="about-me">
+      <h2>About Me</h2>
+      <p>
+        The Generator App is an online tool that helps you to export ready-made
+        templates ready to work as your future website. It helps you to combine
+        slides, panels and other components and export it as a set of static
+        files: HTML/CSS/JS.
+      </p>
+    </div>
+
+    <div class="work-section">
+      <h2>Work Experience</h2>
+      <div class="work-experience">
+        <span class="work-icon"><i class="fas fa-briefcase"></i></span>
+        <div class="work-details">
+          <h3>Junior Web Developer</h3>
+          <button class="job-type">Fulltime</button>
+        </div>
+      </div>
+      <div class="work-details">
+        <div class="company">
+          <i class="fas fa-building"></i> Dr. Rajkumar’s Learning App
+        </div>
+        <div class="location">
+          <i class="fas fa-map-marker-alt"></i> Bengaluru
+        </div>
+        <div class="date">
+          <i class="fas fa-calendar-alt"></i> Sep 2021 - Dec 2021
+        </div>
+      </div>
+      <div class="work-experience">
+        <span class="work-icon"><i class="fas fa-briefcase"></i></span>
+        <div class="work-details">
+          <h3>Junior Web Developer</h3>
+          <button class="job-type">Fulltime</button>
+        </div>
+      </div>
+      <div class="work-details">
+        <div class="company">
+          <i class="fas fa-building"></i> Dr. Rajkumar’s Learning App
+        </div>
+        <div class="location">
+          <i class="fas fa-map-marker-alt"></i> Bengaluru
+        </div>
+        <div class="date">
+          <i class="fas fa-calendar-alt"></i> Sep 2021 - Dec 2021
+        </div>
+      </div>
+      <div class="work-experience">
+        <span class="work-icon"><i class="fas fa-briefcase"></i></span>
+        <div class="work-details">
+          <h3>Junior Web Developer</h3>
+          <button class="job-type">Fulltime</button>
+        </div>
+      </div>
+      <div class="work-details">
+        <div class="company">
+          <i class="fas fa-building"></i> Dr. Rajkumar’s Learning App
+        </div>
+        <div class="location">
+          <i class="fas fa-map-marker-alt"></i> Bengaluru
+        </div>
+        <div class="date">
+          <i class="fas fa-calendar-alt"></i> Sep 2021 - Dec 2021
+        </div>
+      </div>
+      <div class="work-experience">
+        <span class="work-icon"><i class="fas fa-briefcase"></i></span>
+        <div class="work-details">
+          <h3>Junior Web Developer</h3>
+          <button class="job-type">Fulltime</button>
+        </div>
+      </div>
+      <div class="work-details">
+        <div class="company">
+          <i class="fas fa-building"></i> Dr. Rajkumar’s Learning App
+        </div>
+        <div class="location">
+          <i class="fas fa-map-marker-alt"></i> Bengaluru
+        </div>
+        <div class="date">
+          <i class="fas fa-calendar-alt"></i> Sep 2021 - Dec 2021
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
